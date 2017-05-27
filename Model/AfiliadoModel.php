@@ -5,12 +5,12 @@ class AfiliadoModel{
 
 	public function crearRegistroAfi($id_persona,$tipoIdentificaion,$nombres,$apellidos,$telefono,$telefono2){
 		$array = array(
-					  'id_persona'=>"$identificacion",
-					  'tipo_identificacion'=>"$tipoIdentificaion",
-					  'nombres'=>"$nombres",
-					  'apellidos'=>"$apellidos",
-					  'telefono'=>"$telefono",
-					  'telefono2'=>"$telefono2",
+					  'id_persona'=>$identificacion,
+					  'tipo_identificacion'=>$tipoIdentificaion,
+					  'nombres'=>$nombres,
+					  'apellidos'=>$apellidos,
+					  'telefono'=>$telefono,
+					  'telefono2'=>$telefono2,
 				    );
 
 	// inserts //
